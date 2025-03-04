@@ -1,0 +1,51 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace dog_age
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void ExitBtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void WoofBtn_Click(object sender, EventArgs e)
+        {
+            PictureDog.Visible = true;
+            string value1 = NumImput.Text;
+            int number1 = Convert.ToInt32(value1);
+            int number2 = number1 * 11;
+            string answer1 = "your age is " + number2;
+            AgeOut.Text = answer1;
+            
+        }
+
+        private void PictureDog_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NumImput_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void AgeOut_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
