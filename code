@@ -33,19 +33,5 @@ namespace dog_age
             
         }
 
-        private void PictureDog_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void NumImput_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void AgeOut_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
